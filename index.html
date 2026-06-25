@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elotes Mamá Yola | Tradición y Sabor</title>
     <style>
-        
         body {
             font-family: Arial, sans-serif;
             background-color: #FFFDF5; 
@@ -15,7 +14,6 @@
             line-height: 1.6;
         }
 
-        
         header {
             background-color: #FFD23F; 
             padding: 25px 15px;
@@ -28,7 +26,6 @@
             font-size: 32px;
         }
 
-        
         nav {
             background-color: #EE964B; 
             text-align: center;
@@ -42,7 +39,6 @@
             margin: 0 15px;
         }
 
-        
         .seccion {
             padding: 40px 20px;
             margin: 0 auto;
@@ -56,7 +52,6 @@
             margin-top: 0;
         }
 
-        
         .lista-productos {
             margin-top: 20px;
         }
@@ -67,7 +62,6 @@
             border-bottom: 1px dashed #cccccc; 
         }
 
-       
         .foto-producto {
             width: 100%;
             max-width: 300px;
@@ -85,7 +79,6 @@
             margin-top: 5px;
         }
 
-       
         form {
             margin-top: 15px;
         }
@@ -105,7 +98,6 @@
             box-sizing: border-box;
         }
 
-        
         input[type="submit"] {
             background-color: #EE964B;
             color: white;
@@ -119,7 +111,6 @@
             cursor: pointer;
         }
 
-       
         .cuadro-mapa {
             width: 100%;
             height: 250px;
@@ -131,7 +122,6 @@
             margin-top: 15px;
         }
 
-        
         footer {
             background-color: #333333;
             color: white;
@@ -144,8 +134,7 @@
 <body>
 
     <header id="inicio">
-        <img class="logo-cabecera" src="C:\Users\Darius\OneDrive\Desktop\WEB.ELOTES MAMA YOLA\IMAGENES\logo.jpeg" 
-            alt="Logo Elotes Mamá Yola">
+        <img class="logo-cabecera" src="img/logo.jpeg" alt="Logo Elotes Mamá Yola">
 
         <style>
         header {
@@ -154,7 +143,6 @@
             align-items: center;
         }
 
-       
         .logo-cabecera {
             width: 250px;          
             height: 250px;         
@@ -165,19 +153,16 @@
         }
         </style>
 
-
         <h1>🌽 Elotes Mamá Yola 🌽</h1>
-        
         <p style="color: white; margin-top: 5px;">Bienvenidos a la página del mejor puesto de elotes. ¡Gracias por visitarnos!</p>
     </header>
 
     <nav>
         <a href="#historia">Historia</a>
-         <a href="#face">Nuestra Frace</a>
+        <a href="#face">Nuestra Frase</a>
         <a href="#menu">Nuestro Menú</a>
         <a href="#encuesta">Encuesta</a>
         <a href="#datos">Ubicación y Datos</a>
-        
     </nav>
 
     <div class="seccion" id="historia">
@@ -186,21 +171,15 @@
         <p>Anteriormente, este negocio era de la <strong>Señora Yola</strong>, mamá de la actual dueña. En su honor y para celebrar su legado, hoy nos llamamos orgullosamente: <strong>Elotes Mamá Yola</strong>.</p>
     </div>
 
-     <div class="seccion" id="face" style="text-align: center; max-width: 600px; margin: 0 auto; padding: 20px;">
-
-      <h2>Nuestra Frase</h2>
-    
-       <p>No gastes tu dinero allá donde no saben preparar<br>
-       <strong>Ven a Elotes Mamá Yola, donde el verdadero antojo de la zona toma forma.</strong>
-       </p>
-    
-       <p>Elotes Mamá Yola<br>
-       <strong>Los mejores de la zona. La competencia lo sabe, por eso nos copian.</strong>
-      </p>
-
+    <div class="seccion" id="face" style="text-align: center; max-width: 600px; margin: 0 auto; padding: 20px;">
+        <h2>Nuestra Frase</h2>
+        <p>No gastes tu dinero allá donde no saben preparar<br>
+        <strong>Ven a Elotes Mamá Yola, donde el verdadero antojo de la zona toma forma.</strong>
+        </p>
+        <p>Elotes Mamá Yola<br>
+        <strong>Los mejores de la zona. La competencia lo sabe, por eso nos copian.</strong>
+        </p>
     </div>
-
-
 
     <div class="seccion" id="menu">
         <h2>Nuestro Delicioso Menú</h2>
@@ -208,155 +187,115 @@
         
         <div class="lista-productos">
             
+            <div class="item-producto" style="display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 250px;">
+                    <h3>Elote Normal</h3> 
+                    <p style="text-align: left; font-weight: bold; margin-bottom: 5px;">INGREDIENTES</p>
+                    <p style="text-align: left; margin: 2px 0;">MAYONESA</p>
+                    <p style="text-align: left; margin: 2px 0;">QUESO</p>
+                    <p style="text-align: left; margin: 2px 0;">CHILE DEL QUE PICA O DEL QUE NO</p>
+                    <p style="text-align: left; margin: 2px 0;">(cualquiera de los ingredientes los puedes modificar al gusto) </p>
+                    <p class="precio-texto" style="margin-top: 15px;">Precio: $35.00</p>
+                </div>
+                <div style="flex: 1; min-width: 250px; display: flex; justify-content: flex-end;">
+                    <img src="img\elote  normal.jpeg" alt="elote normal" style="max-width: 100%; height: 400px; width: auto;">         
+                </div>
+            </div>
 
             <div class="item-producto" style="display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap;">
-    
-               <div style="flex: 1; min-width: 250px;">
-               <h3>Elote Normal</h3> 
-               <p style="text-align: left; font-weight: bold; margin-bottom: 5px;">INGREDIENTES</p>
-               <p style="text-align: left; margin: 2px 0;">MAYONESA</p>
-               <p style="text-align: left; margin: 2px 0;">QUESO</p>
-               <p style="text-align: left; margin: 2px 0;">CHILE DEL QUE PICA O DEL QUE NO</p>
-               <p style="text-align: left; margin: 2px 0;">(cualquiera de los ingredientes los puedes modificar al gusto) </p>
-               <p class="precio-texto" style="margin-top: 15px;">Precio: $35.00</p>
-             </div>
-
-            <div style="flex: 1; min-width: 250px; display: flex; justify-content: flex-end;">
-              <img src="C:\Users\Darius\OneDrive\Desktop\WEB.ELOTES MAMA YOLA\IMAGENES\elote  normal.jpeg" alt="Elote Normal" style="max-width: 100%; height: 400px; width: auto;">            
+                <div style="flex: 1; min-width: 250px;">
+                    <h3>Elote Amarillo</h3>
+                    <p style="text-align: left; font-weight: bold; margin-bottom: 5px;">INGREDIENTES</p>
+                    <p style="text-align: left; margin: 2px 0;">MAYONESA</p>
+                    <p style="text-align: left; margin: 2px 0;">QUESO</p>
+                    <p style="text-align: left; margin: 2px 0;">CHILE DEL QUE PICA O DEL QUE NO PICA</p>
+                    <p style="text-align: left; margin: 2px 0;">(cualquiera de los ingredientes los puedes modificar al gusto)</p>          
+                    <p class="precio-texto" style="margin-top: 15px;">Precio: $40.00</p>
+                </div>
+                <div style="flex: 1; min-width: 250px; display: flex; justify-content: flex-end;">
+                    <img src="img/elote amarillo.jpeg" alt="elote amarillo" style="max-width: 100%; height: auto; width: auto;">            
+                </div>
             </div>
 
-        </div>
-
-             <div class="item-producto" style="display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap;">
-      
-               <div style="flex: 1; min-width: 250px;">
-               <h3>Elote Amarillo</h3>
-               <p style="text-align: left; font-weight: bold; margin-bottom: 5px;">INGREDIENTES</p>
-               <p style="text-align: left; margin: 2px 0;">MAYONESA</p>
-               <p style="text-align: left; margin: 2px 0;">QUESO</p>
-               <p style="text-align: left; margin: 2px 0;">CHILE DEL QUE PICA O DEL QUE NO PICA</p>
-               <p style="text-align: left; margin: 2px 0;">(cuaquiera de los ingredientes los puedes modificar al gusto)</p>          
-               <p class="precio-texto" style="margin-top: 15px;">Precio: $40.00</p>
-       </div>
-  
-            <div style="flex: 1; min-width: 250px; display: flex; justify-content: flex-end;">
-              <img src="C:\Users\Darius\OneDrive\Desktop\WEB.ELOTES MAMA YOLA\IMAGENES\elote amarillo.jpeg" alt="Elote Amarillo" style="max-width: 100%; height: auto; width: auto;">            
-       </div>
-
-         </div>
-
-               
-             <div class="item-producto" style="display: flex; justify-content: space-between; align-items:  center; gap: 20px; flex-wrap: wrap;">
-                
-
-             <div style="flex: 1; min-width: 250px;">
-                <h3>Elote con Polvo de Doritos</h3>
-                <p style="text-align: left; font-weight: bold; margin-bottom: 5px;">INGREDIENTES</p>
-                <p style="text-align: left; margin: 2px 0;">MAYONESA</p>
-                <p style="text-align: left; margin: 2px 0;">POLVO DE DORITOS</p>
-                <p style="text-align: left; margin: 2px 0;">Queso Amarillo</p>
-                <p style="text-align: left; margin: 2px 0;">CHILE DEL QUE PICA O DEL QUE NO PICA</p>
-                <p style="text-align: left; margin: 2px 0;">(cuaquiera de los ingredientes los puedes modificar al gusto)</p>          
-                <p class="precio-texto" style="margin-top: 15px;">Precio: $45.00</p>
-            </div>
-            
-            <div style="flex: 1; min-width: 250px; display: flex; justify-content: flex-end;">
-             <img class="elote churro.jpeg" src="C:\Users\Darius\OneDrive\Desktop\WEB.ELOTES MAMA YOLA\IMAGENES\elote churro.jpeg" alt="Elote Normal" style="max-width: 100%; height: auto;">            
-             </div>
-
+            <div class="item-producto" style="display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 250px;">
+                    <h3>Elote con Polvo de Doritos</h3>
+                    <p style="text-align: left; font-weight: bold; margin-bottom: 5px;">INGREDIENTES</p>
+                    <p style="text-align: left; margin: 2px 0;">MAYONESA</p>
+                    <p style="text-align: left; margin: 2px 0;">POLVO DE DORITOS</p>
+                    <p style="text-align: left; margin: 2px 0;">Queso Amarillo</p>
+                    <p style="text-align: left; margin: 2px 0;">CHILE DEL QUE PICA O DEL QUE NO PICA</p>
+                    <p style="text-align: left; margin: 2px 0;">(cualquiera de los ingredientes los puedes modificar al gusto)</p>          
+                    <p class="precio-texto" style="margin-top: 15px;">Precio: $45.00</p>
+                </div>
+                <div style="flex: 1; min-width: 250px; display: flex; justify-content: flex-end;">
+                    <img src="img/elote churro.jpeg" alt="elote con polvo de doritos" style="max-width: 100%; height: auto;">            
+                </div>
             </div>
 
-
-
-             <div class="item-producto" style="display: flex; justify-content: space-between; align-items:  center; gap: 20px; flex-wrap: wrap;">
-
-
-             <div style="flex: 1; min-width: 250px;">
-                <h3>Esquites</h3>
-                <p style="text-align: left; font-weight: bold; margin-bottom: 5px;">INGREDIENTES</p>
-                <p style="text-align: left; margin: 2px 0;">MAYONESA</p>
-                <p style="text-align: left; margin: 2px 0;">QUESO</p>
-                <p style="text-align: left; margin: 2px 0;">CHILE DEL QUE PICA O DEL QUE NO</p>
-                <p style="text-align: left; margin: 2px 0;">(cuaquiera de los ingredientes los puedes modificar al gusto)</p>
-                <p class="precio-texto" style="margin-top: 15px;">Precio: $35.00 Chico | $50.00 Mediano | $60.00 Grande</p>
-            </div>
-        
-            
-            <div style="flex: 1; min-width: 250px; display: flex; justify-content: flex-end;">
-             <img class="esquites.jpeg" src="C:\Users\Darius\OneDrive\Desktop\WEB.ELOTES MAMA YOLA\IMAGENES\esquites.jpeg" alt="Elote Normal" style="max-width: 100%; height: auto;">            
-             </div>
-
+            <div class="item-producto" style="display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 250px;">
+                    <h3>Esquites</h3>
+                    <p style="text-align: left; font-weight: bold; margin-bottom: 5px;">INGREDIENTES</p>
+                    <p style="text-align: left; margin: 2px 0;">MAYONESA</p>
+                    <p style="text-align: left; margin: 2px 0;">QUESO</p>
+                    <p style="text-align: left; margin: 2px 0;">CHILE DEL QUE PICA O DEL QUE NO</p>
+                    <p style="text-align: left; margin: 2px 0;">(cualquiera de los ingredientes los puedes modificar al gusto)</p>
+                    <p class="precio-texto" style="margin-top: 15px;">Precio: $35.00 Chico | $50.00 Mediano | $60.00 Grande</p>
+                </div>
+                <div style="flex: 1; min-width: 250px; display: flex; justify-content: flex-end;">
+                    <img src="img/esquites.jpeg" alt="esquites" style="max-width: 100%; height: auto;">            
+                </div>
             </div>
 
-        
-            <div class="item-producto" style="display: flex; justify-content: space-between; align-items:  center; gap: 20px; flex-wrap: wrap;">
-
-
-             <div style="flex: 1; min-width: 250px;">
-                <h3>Churros</h3>
-                <p style="text-align: left; margin: 2px 0;">Variedades: Palito, Ruedita, Cuadrados, Palito Duro o Lagrimita Tambien Chicharron</p>
-                <p style="text-align: left; font-weight: bold; margin-bottom: 5px;">INGREDIENTES</p>
-                <p style="text-align: left; margin: 2px 0;">PICODE GALLO</p>
-                <p style="text-align: left; margin: 2px 0;">REPOLLO</p>
-                <p style="text-align: left; margin: 2px 0;">CUERITOS</p>
-                <p style="text-align: left; margin: 2px 0;">LIMON Y SAL</p>
-                <p class="precio-texto" style="margin-top: 15px;">Natural: $5.00 c/u | Preparados: $15.00 | Chicharron : $30.00 </p>
+            <div class="item-producto" style="display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 250px;">
+                    <h3>Churros</h3>
+                    <p style="text-align: left; margin: 2px 0;">Variedades: Palito, Ruedita, Cuadrados, Palito Duro o Lagrimita Tambien Chicharron</p>
+                    <p style="text-align: left; font-weight: bold; margin-bottom: 5px;">INGREDIENTES</p>
+                    <p style="text-align: left; margin: 2px 0;">PICO DE GALLO</p>
+                    <p style="text-align: left; margin: 2px 0;">REPOLLO</p>
+                    <p style="text-align: left; margin: 2px 0;">CUERITOS</p>
+                    <p style="text-align: left; margin: 2px 0;">LIMON Y SAL</p>
+                    <p class="precio-texto" style="margin-top: 15px;">Natural: $5.00 c/u | Preparados: $15.00 | Chicharron : $30.00 </p>
+                </div>
+                <div style="flex: 1; min-width: 250px; display: flex; justify-content: flex-end;">
+                    <img src="img/CHURROS.jpeg" alt="churros" style="max-width: 100%; height: auto;">            
+                </div>
             </div>
 
-   
-            <div style="flex: 1; min-width: 250px; display: flex; justify-content: flex-end;">
-             <img class="churros.jpeg" src="C:\Users\Darius\OneDrive\Desktop\WEB.ELOTES MAMA YOLA\IMAGENES\CHURROS.jpeg" alt="Elote Normal" style="max-width: 100%; height: auto;">            
-             </div>
-
+            <div class="item-producto" style="display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 250px;">
+                    <h3>Dorilocos</h3>
+                    <p style="text-align: left; margin: 2px 0;">INGREDIENTES</p>
+                    <p style="text-align: left; margin: 2px 0;">PICO DE GALLO</p>
+                    <p style="text-align: left; margin: 2px 0;">REPOLLO</p>
+                    <p style="text-align: left; margin: 2px 0;">CUERITOS</p>
+                    <p style="text-align: left; margin: 2px 0;">LIMON Y SAL</p>
+                    <p style="text-align: left; margin: 2px 0;">CACAHUATES</p>
+                    <p style="text-align: left; margin: 2px 0;">(cualquiera de los ingredientes los puedes modificar al gusto)</p>
+                    <p class="precio-texto" style="margin-top: 15px;">Precio: $60.00</p>
+                </div>
+                <div style="flex: 1; min-width: 250px; display: flex; justify-content: flex-end;">
+                    <img src="img/dorilocos.jpeg" alt="dorilocos" style="max-width: 100%; height: auto;">            
+                </div>
             </div>
 
-
-            <div class="item-producto" style="display: flex; justify-content: space-between; align-items:  center; gap: 20px; flex-wrap: wrap;">
-
-
-            <div style="flex: 1; min-width: 250px;">
-                <h3> Doricolos</h3>
-                <p style="text-align: left; margin: 2px 0;">INGREDIENTES</p>
-                <p style="text-align: left; margin: 2px 0;">PICODE GALLO</p>
-                <p style="text-align: left; margin: 2px 0;">REPOLLO</p>
-                <p style="text-align: left; margin: 2px 0;">CUERITOS</p>
-                <p style="text-align: left; margin: 2px 0;">LIMON Y SAL</p>
-                <p style="text-align: left; margin: 2px 0;">CACAHUATES</p>
-                <p style="text-align: left; margin: 2px 0;">(cuaquiera de los ingredientes los puedes modificar al gusto)</p>
-                <p class="precio-texto" style="margin-top: 15px;">Precio: $60.00</p>
+            <div class="item-producto" style="display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 250px;">
+                    <h3>Doriesquites</h3>
+                    <p style="text-align: left; margin: 2px 0;">INGREDIENTES</p>
+                    <p style="text-align: left; margin: 2px 0;">MAYONESA</p>
+                    <p style="text-align: left; margin: 2px 0;">QUESO AMARILLO</p>
+                    <p style="text-align: left; margin: 2px 0;">QUESO</p>
+                    <p style="text-align: left; margin: 2px 0;">CHILE DEL QUE PICA O DEL QUE NO</p>
+                    <p style="text-align: left; margin: 2px 0;">(cualquiera de los ingredientes los puedes modificar al gusto)</p>
+                    <p class="precio-texto" style="margin-top: 15px;">Precio: $65.00</p>
+                </div>
+                <div style="flex: 1; min-width: 250px; display: flex; justify-content: flex-end;">
+                    <img src="img/doriesquites.jpeg" alt="doriesquites" style="max-width: 100%; height: auto;">            
+                </div>
             </div>
-
-   
-            <div style="flex: 1; min-width: 250px; display: flex; justify-content: flex-end;">
-             <img class="dorilocos.jpeg" src="C:\Users\Darius\OneDrive\Desktop\WEB.ELOTES MAMA YOLA\IMAGENES\dorilocos.jpeg" alt="Elote Normal" style="max-width: 100%; height: auto;">            
-             </div>
-
-            </div>
-
-            <div class="item-producto" style="display: flex; justify-content: space-between; align-items:  center; gap: 20px; flex-wrap: wrap;">
-
-
-            <div style="flex: 1; min-width: 250px;">
-                <h3>Doriesquites</h3>
-                <p style="text-align: left; margin: 2px 0;">INGREDIENTES</p>
-                <p style="text-align: left; margin: 2px 0;">MAYONESA</p>
-                <p style="text-align: left; margin: 2px 0;">QUESO AMARILLO</p>
-                <p style="text-align: left; margin: 2px 0;">QUESO</p>
-                <p style="text-align: left; margin: 2px 0;">CHILE DEL QUE PICA O DEL QUE NO</p>
-                <p style="text-align: left; margin: 2px 0;">(cuaquiera de los ingredientes los puedes modificar al gusto)</p>
-                <p p class="precio-texto" style="margin-top: 15px;">Precio: $65.00</p>
-            </div>
-
-
-            <div style="flex: 1; min-width: 250px; display: flex; justify-content: flex-end;">
-             <img class="doriesquites.jpeg" src="C:\Users\Darius\OneDrive\Desktop\WEB.ELOTES MAMA YOLA\IMAGENES\doriesquites.jpeg" alt="Elote Normal" style="max-width: 100%; height: auto;">            
-             </div>
-
-            </div>
-
-            <div class="item-producto" style="display: flex; justify-content: space-between; align-items:  center; gap: 20px; flex-wrap: wrap;">
-
-
 
         </div>
     </div>
@@ -373,14 +312,14 @@
                 <option>Puede mejorar</option>
             </select>
 
-            <label for="servicio">¿Qué fue lo que mas te gusto de nuestro servisio?</label>
-            <input type="text" id="servicio" placeholder="Ej: lo amable,la atension al cliente">
+            <label for="gusto">¿Qué fue lo que más te gustó de nuestro servicio?</label>
+            <input type="text" id="gusto" placeholder="Ej: lo amable, la atención al cliente">
 
             <label for="producto">¿Qué producto compraste hoy?</label>
             <input type="text" id="producto" placeholder="Ej: Elote amarillo y churros">
 
-            <label for="producto">¿Qué te gustaria implementar al puesto?</label>
-            <input type="text" id="producto" placeholder="Ej: maruchan,churros de chet,ect">
+            <label for="implementar">¿Qué te gustaría implementar al puesto?</label>
+            <input type="text" id="implementar" placeholder="Ej: maruchan, churros de chet, etc">
 
             <label for="sugerencias">¿En qué podemos ayudarte o mejorar?</label>
             <textarea id="sugerencias" rows="4" placeholder="Escribe tus sugerencias aquí..."></textarea>
@@ -391,11 +330,12 @@
 
     <div class="seccion" id="datos">
         <h2>Foto del Establecimiento</h2>
-        <ul>
-           <img class="local.jpeg" src="C:\Users\Darius\OneDrive\Desktop\WEB.ELOTES MAMA YOLA\IMAGENES\puestolala.jpeg" alt="Elote Normal" style="max-width: 100%; height: auto;">            
-        </ul>
+        <div style="text-align: center;">
+            <img src="img/puestolala.jpeg" alt="Foto del Establecimiento" style="max-width: 100%; height: auto; border: 1px solid #cccccc;">            
+        </div>
+    </div>
 
-    <div class="seccion" id="datos">
+    <div class="seccion">
         <h2>Datos del Establecimiento</h2>
         <ul>
             <li><strong>👤 Dueña:</strong> Guillermina Vega Uribe</li>
@@ -404,25 +344,21 @@
             <li><strong>🌽 Vende:</strong> Elotes y Churros recién hechos y originales</li>
             <li><strong>📍 Ubicación:</strong> La Esperanza, Colón, QRO</li>
             <li><strong>⏰ Horarios:</strong> Lunes a Domingo</li>
-            <li><strong>⏰ Horarios:</strong> apartir de las 3pm alas 8:30pm entre semana, los fines de 12pm alas 8:30pm</li>
-
+            <li><strong>⏰ Horarios detallados:</strong> A partir de las 3pm a las 8:30pm entre semana, los fines de 12pm a las 8:30pm</li>
         </ul>
+    </div>
 
-
-<div class="seccion" id="datos">
+    <div class="seccion">
         <h2>Ubicación en el Mapa</h2>
         <div class="cuadro-mapa" style="height: auto; border: none; padding: 0;">
-            
-            <a href="https://maps.app.goo.gl/WC1rybQhqze2Rpa79" target="_blank" title="Ver en Google Maps">
-                <img src="C:\Users\Darius\OneDrive\Desktop\WEB.ELOTES MAMA YOLA\IMAGENES\mama.png" alt="Ubicación de Elotes Mamá Yola" style="width: 100%; max-width: 800px; height: auto; display: block; margin: 0 auto; border: 1px solid #cccccc; cursor: pointer;">
-                
+            <a href="https://maps.google.com" target="_blank" title="Ver en Google Maps">
+                <img src="img/mama.png" alt="Ubicación de Elotes Mamá Yola" style="width: 100%; max-width: 800px; height: auto; display: block; margin: 0 auto; border: 1px solid #cccccc; cursor: pointer;">
             </a>
-            
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2024 Elotes Mamá Yola - ¡Gracias por su preferencia!</p>
+        <p>© 2026 Elotes Mamá Yola - ¡Gracias por su preferencia!</p>
     </footer>
 
 </body>
